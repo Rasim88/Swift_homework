@@ -33,12 +33,12 @@ for currentPizza in Pizza.allCases {
 
 print("Task_3 Seminar_2")
 
-enum Pizza_raw: String {
+enum PizzaRaw: String {
     case margherita = "Margherita"
     case diabola = "Diabola"
     case hawaii = "Hawaii"
 }
-func getName(pizza: Pizza_raw) -> String {
+func getName(pizza: PizzaRaw) -> String {
     pizza.rawValue
 }
 print(getName(pizza: .margherita))
