@@ -27,3 +27,21 @@ let sortedArray = filteredArray.sorted()
 print(sortedArray)
 
 print("Task_3 Seminar_3")
+
+func generateArray(of number: Int) -> [Int] {
+    var result = [Int]()
+    var value = 1
+    
+    for _ in 1...number {
+        result.append(value)
+        value *= 2
+    }
+    
+    return result
+}
+
+let arrayOfNum = generateArray(of: 13)
+
+print("На вход приняли число: 13. Количество элементов массива соотвествует: 13. Массив начинается с числа: 1. Каждый последующий элемент больше предыдущего в 2 раза.")
+print("Массив из чисел: ")
+print(arrayOfNum)
