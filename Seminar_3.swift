@@ -15,3 +15,15 @@ for(key, value) in Tea {
 }
 
 print("Task_2 Seminar_3")
+
+var array: [Int?] = [-4, 5, 10, nil, 4, nil, 25, 0, nil, 16, 75, -20, -7, 15, 0, nil]
+print("Дан массив, содержащий опционалы: ")
+print(array)
+let filteredArray = array.compactMap{ $0 }.filter { $0 != 0 && $0 != 4 }
+print("Удалили из массива значения nil, 0, 4: ")
+print(filteredArray)
+print("Cортируем массив по возрастанию: ")
+let sortedArray = filteredArray.sorted()
+print(sortedArray)
+
+print("Task_3 Seminar_3")
