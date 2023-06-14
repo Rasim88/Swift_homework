@@ -31,10 +31,10 @@ for j in 10...50 {
 }
 
 print("Task_4 Seminar_1")
-var k_num: Int = 9
+var kNum: Int = 9
 for l in 10...50 {
-  if l % 2 != 0 && (l + k) % 2 == 0 {
-    print(k + 1)
+  if l % 2 != 0 && (l + kNum) % 2 == 0 {
+    print(kNum + 1)
   }
     else {
         print("Next")
