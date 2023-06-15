@@ -58,3 +58,13 @@ pizzaShop.addPizza(pizza: Pizza(price: 13.99, type: .pepperoni, crust: .thick, t
 for pizza in pizzaShop.getAllPizzas() {
     print("Type: \(pizza.type.rawValue), Price: $\(pizza.price), Crust Type: \(pizza.crust.rawValue), Toppings: \(pizza.toppings.map { $0.rawValue })")
 }
+
+// Вывод:
+// Task_1 Seminar_4
+// Type: margherita, Price: $8.99, Crust Type: thin, Toppings: ["extraCheese"]
+// Type: pepperoni, Price: $10.99, Crust Type: thick, Toppings: ["extraCheese", "mushrooms"]
+// Type: hawaiian, Price: $12.99, Crust Type: thin, Toppings: ["onions", "olives"]
+// Type: meatLover, Price: $14.99, Crust Type: thick, Toppings: ["mushrooms", "olives", "peppers"]
+// Type: veggie, Price: $11.99, Crust Type: thin, Toppings: ["peppers", "mushrooms"]
+// Type: meatLover, Price: $9.99, Crust Type: thin, Toppings: ["onions"]
+// Type: pepperoni, Price: $13.99, Crust Type: thick, Toppings: ["peppers", "olives"]
