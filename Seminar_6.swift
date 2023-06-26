@@ -1,4 +1,4 @@
-print("Task_1 Seminar_6")
+print("Task_1-3 Seminar_6")
 
 protocol OpenCloseProtocol {
     func open()
