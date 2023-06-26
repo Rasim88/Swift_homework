@@ -18,7 +18,7 @@ enum Position {
 
 class Table {
     let capacity: Int
-    var cafe: PizzaShop?
+    weak var cafe: PizzaShop?
     
     init(capacity: Int) {
         self.capacity = capacity
